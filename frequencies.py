@@ -1,7 +1,8 @@
 """Frequencies function."""
 """ENTER YOUR SOLUTION HERE!"""
 
-def frequencies(items):
+def frequencies(itemsIn):
+    items = itemsIn
     frequencies = {}
     for item in items:
         if item in frequencies:
